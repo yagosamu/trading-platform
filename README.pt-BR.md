@@ -10,6 +10,19 @@ profundidade de mercado agregada e histórico de negociações.
 
 ---
 
+## Objetivo
+
+Este projeto é uma implementação prática de fundamentos de arquitetura de software. O domínio
+foi escolhido pelo que concentra num escopo pequeno: regra de negócio densa e determinística,
+concorrência disputando o mesmo estado, exigência de consistência sob carga e um caminho de
+leitura com requisitos opostos aos da escrita.
+
+A ênfase está nas fronteiras. A regra de negócio permanece independente de infraestrutura e
+testável sem ela, as decisões são registradas com o trade-off e não apenas com a conclusão, e
+cada escolha estrutural responde a um problema que o domínio de fato impõe.
+
+---
+
 ## Visão geral
 
 Usuários mantêm contas com saldos em múltiplos ativos e negociam pares de mercado

@@ -10,6 +10,19 @@ history.
 
 ---
 
+## Purpose
+
+This project is a practical implementation of software architecture fundamentals. The domain
+was chosen for what it packs into a small scope: dense and deterministic business rules,
+concurrency competing over shared state, consistency requirements under load, and a read path
+whose needs run opposite to those of the write path.
+
+The emphasis is on boundaries. Business rules stay independent of infrastructure and testable
+without it, decisions are recorded with their trade-offs rather than only their conclusions,
+and every structural choice answers a problem the domain actually poses.
+
+---
+
 ## Overview
 
 Users hold accounts with balances across multiple assets and trade market pairs such as
